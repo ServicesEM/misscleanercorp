@@ -73,7 +73,7 @@ div#roomToggle:hover i.mdi.mdi-cursor-default-click-outline.room-icon {
     object-fit: cover;
     transition: opacity 0.5s ease;
     z-index: 1;
-    height: 100%;
+    height: 100% !important;
     width: auto;
 }
 .mc-hero-girl img {
@@ -96,4 +96,50 @@ div#roomToggle:hover i.mdi.mdi-cursor-default-click-outline.room-icon {
     transform: translate(-50%, -50%);
     z-index: 3;
     pointer-events: none;
+}
+@media screen and (max-width: 1024px) {
+    section.fullwidth.mc-hero-split.mc-hero-clean {
+        flex-direction: column;
+    }
+    .mc-crescent-clip {
+        width: 100%;
+    }
+    .mc-hero-text {
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        padding-top: 2rem;
+        align-items: center;
+    }
+    .mc-hero-girl img {
+        right: 0;
+        width: 75%;
+        margin: auto;
+    }
+    div#roomToggle.mc-hero-room {
+        display: none;
+    }
+    .mc-footer-col.mc-footer-brand {
+        margin: 0;
+    }
+    .mc-footer-container {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }  
+    
+}
+@media screen and (max-width: 768px) {
+    .mc-hero-text {
+        padding-left: 0;
+    }
+    section.fullwidth.mc-hero-split.mc-hero-clean {
+        padding: 0 1rem;
+    }
+    .mc-hero-girl img {
+        margin-bottom: 0;
+    }
+    .mc-footer-col.mc-footer-brand {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
