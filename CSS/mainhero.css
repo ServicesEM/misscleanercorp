@@ -1,0 +1,99 @@
+/*Main Banner*/
+.mc-hero-clean {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 0rem 0 0 2rem;
+    min-height: 600px;
+    overflow: hidden;
+    background-color: var(--mc-bg-main);
+}
+.mc-crescent-clip {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 55%;
+    height: 100%;
+    background-color: #2bb6c1;
+    clip-path: ellipse(60% 75% at 100% 40%);
+    opacity: 0.25;
+    z-index: 0;
+    transform: rotate(180deg);
+}
+.mc-hero-text {
+    z-index: 2;
+    flex: 0.75;
+    padding-left: 1rem;
+    max-width: 600px;
+    font-family: var(--mc-font-primary);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.mc-hero-text h1 {
+    font-size: 2.5rem !important;
+    font-family: var(--mc-font-secondary) !important;
+    font-weight: 700 !important;
+    margin-bottom: 1rem !important;
+    color: var(--mc-text-base) !important;
+}
+.mc-hero-text p {
+    font-size: 1.5rem !important;
+    color: var(--mc-text-soft) !important;
+    margin-bottom: 2.5rem !important;
+}
+.mc-btn {
+    background-color: var(--mc-secondary);
+    color: #fff !important;
+    padding: 0.75rem 1.5rem;
+    border-radius: var(--mc-radius-md);
+    text-decoration: none !important;
+    font-weight: 600 !important;
+    font-family: var(--mc-font-secondary) !important;
+}
+.mc-hero-girl {
+    flex: 1;
+    z-index: 3;
+    display: flex;
+    align-items: flex-end;
+}
+div#roomToggle:hover i.mdi.mdi-cursor-default-click-outline.room-icon {
+    color: white !important;
+}
+.mc-hero-room {
+    flex: 1.5;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: stretch;
+}
+.room-img {
+    position: absolute;
+    object-fit: cover;
+    transition: opacity 0.5s ease;
+    z-index: 1;
+    height: 100%;
+    width: auto;
+}
+.mc-hero-girl img {
+    right: -75px;
+    position: relative;
+}
+.room-dirty {
+    opacity: 1;
+}
+.room-clean {
+    opacity: 0;
+    z-index: 2;
+}
+.room-icon {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    font-size: 4rem;
+    color: var(--mc-primary);
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    pointer-events: none;
+}
