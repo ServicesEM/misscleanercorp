@@ -1,0 +1,25 @@
+:root {
+  /* Brand Colors */
+  --mc-primary: #2bb6c1;       /* Turquesa */
+  --mc-secondary: #dc5e97;     /* Magenta */
+  /* Accent Colors */
+  --mc-accent-1: #ffd60a;      /* Amarillo vibrante */
+  --mc-accent-2: #6464ff;      /* Azul acento */
+  /* Text Colors */
+  --mc-text-base: #212121;     /* Texto principal */
+  --mc-text-soft: #787878;     /* Texto secundario */
+  /* Backgrounds */
+  --mc-bg-main: #ffffff;       /* Fondo principal */
+  --mc-bg-soft: #f5f5f5;       /* Fondo suave */
+  /* Borders */
+  --mc-border: #e6e6e6;        /* Color de borde */
+  /* Shadows */
+  --mc-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  /* Radii */
+  --mc-radius-sm: 4px;
+  --mc-radius-md: 8px;
+  --mc-radius-lg: 16px;
+  /* Typography */
+  --mc-font-primary: 'Lato', sans-serif;
+  --mc-font-secondary: 'Poppins', sans-serif;
+}
