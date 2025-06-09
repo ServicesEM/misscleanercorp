@@ -23,3 +23,11 @@
   --mc-font-primary: 'Lato', sans-serif;
   --mc-font-secondary: 'Poppins', sans-serif;
 }
+.fullwidth {
+    position: relative;
+    max-width: inherit;
+    width: 100vw;
+    margin: -15px -50vw 0;
+    left: 50%;
+    right: 50%;
+}
