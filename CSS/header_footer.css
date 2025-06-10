@@ -59,6 +59,7 @@
 .mc-header__logo img {
     height: 70px;
     display: block;
+    width: fit-content;
 }
 .mc-header__nav-list {
     display: flex;
