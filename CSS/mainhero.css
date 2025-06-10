@@ -131,6 +131,9 @@ div#roomToggle:hover i.mdi.mdi-cursor-default-click-outline.room-icon {
     .mc-hero-text {
         padding-left: 0;
     }
+    .mc-hero-girl img {
+        margin-bottom: 0;
+    }
     section.fullwidth.mc-hero-split.mc-hero-clean {
         padding: 0 1rem;
     }
