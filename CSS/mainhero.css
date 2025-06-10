@@ -74,7 +74,7 @@ div#roomToggle:hover i.mdi.mdi-cursor-default-click-outline.room-icon {
     transition: opacity 0.5s ease;
     z-index: 1;
     height: 100% !important;
-    width: auto;
+    width: 100%;
 }
 .mc-hero-girl img {
     right: -75px;
