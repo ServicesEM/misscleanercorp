@@ -213,6 +213,9 @@ button.mc-header-mobile__toggle i.mdi.mdi-menu {
     border-radius: var(--mc-radius-md);
     text-align: center;
   }
+  .mc-footer-brand img {
+    max-width: 100px!important;
+  }
 }
 /*Footer Styles*/
 .mc-footer {
