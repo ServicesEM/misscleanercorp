@@ -17,7 +17,8 @@
 }
 .mc-header-top__item {
     margin-right: 1.5rem;
-    font-weight: 500 !important;
+    font-weight: 600 !important;
+    color: black;
 }
 .mc-header-top__socials a {
     margin-left: 0.8rem;
