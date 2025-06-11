@@ -31,3 +31,29 @@
     left: 50%;
     right: 50%;
 }
+/* Títulos principales */
+h1, h2, h3 {
+  font-family: var(--mc-font-secondary);
+  font-weight: 700;
+}
+/* Subtítulos o encabezados menores */
+h4, h5, h6 {
+  font-family: var(--mc-font-secondary);
+  font-weight: 500;
+}
+/* Texto de párrafo y listas */
+body, p, li {
+  font-family: var(--mc-font-primary);
+  font-weight: 400;
+}
+/* Botones, enlaces llamativos, CTAs */
+a.button, .cta-button {
+  font-family: var(--mc-font-secondary);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+/* Footer y textos pequeños o secundarios */
+footer, .footer-text, small {
+  font-family: var(--mc-font-primary);
+  font-weight: 300;
+}
