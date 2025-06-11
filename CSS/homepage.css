@@ -67,7 +67,7 @@
   font-size: 2rem !important;
   font-family: var(--mc-font-secondary) !important;
   color: var(--mc-text-base) !important;
-  margin-bottom: 2.5rem !important;
+  margin: 2.5rem 0 !important;
 }
 .mc-service-card {
   background-color: var(--mc-bg-main);
@@ -415,9 +415,10 @@ ul.slick-dots {
 /*Map + FAQs*/
 .mc-contactfaq-section {
     background: var(--mc-bg-soft);
-    padding: 4rem 2rem;
+    padding: 0rem 2rem 4rem;
     font-family: var(--mc-font-primary);
     overflow: hidden;
+    margin-top: 3rem;
 }
 .mc-contactfaq-section::before {
     content: "";
