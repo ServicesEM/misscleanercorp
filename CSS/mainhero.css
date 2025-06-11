@@ -42,6 +42,7 @@
     font-size: 2rem !important;
     color: var(--mc-text-soft) !important;
     margin-bottom: 2.5rem !important;
+    font-weight: 500;
 }
 .mc-btn {
     display: block;
