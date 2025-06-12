@@ -80,7 +80,7 @@
 }
 .mc-btn:hover {
     transition: background-color 0.1s 0.3s, color 0.1s 0.3s;
-    background-color: #c24e85;
+    background-color: var(--mc-accent-2);
     animation: anim-moema-1 0.3s forwards;
 }
 .mc-btn:hover::before {
