@@ -281,6 +281,9 @@ ul.slick-dots {
     font-weight: 600 !important;
     font-family: var(--mc-font-secondary) !important;
 }
+.mc-step-cta .mc-btn {
+  background-color: var(--mc-accent-2);
+}
 @media screen and (max-width: 768px) {
   .mc-cleaning-parallax {
     display: none;
