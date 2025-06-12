@@ -113,7 +113,7 @@
   transition: background-color 0.3s ease;
 }
 .mc-service-card .mc-btn:hover {
-  background-color: #c04c7e;
+  background-color: var(--mc-accent-2);
 }
 @media screen and (max-width: 765px) {
     .mc-service-card {
