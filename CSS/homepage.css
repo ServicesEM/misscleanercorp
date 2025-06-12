@@ -70,7 +70,7 @@
   font-size: 2rem !important;
   font-family: var(--mc-font-secondary) !important;
   color: var(--mc-text-base) !important;
-  margin: 2.5rem 0 !important;
+  margin-bottom: 2.5rem !important;
 }
 .mc-service-card {
   background-color: var(--mc-bg-main);
