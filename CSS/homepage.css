@@ -260,7 +260,7 @@ div#roomToggle:hover i.mdi.mdi-cursor-default-click-outline.room-icon {
   font-size: 2rem !important;
   font-family: var(--mc-font-secondary) !important;
   color: var(--mc-text-base) !important;
-  margin-bottom: 2.5rem !important;
+  margin: 2.5rem .5rem !important;
 }
 .mc-service-card {
   background-color: var(--mc-bg-main);
