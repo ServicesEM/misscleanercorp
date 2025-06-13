@@ -608,6 +608,8 @@ ul.slick-dots {
         width: 100%;
     }
 }
+/*Testimonials*/
+@media (max-width: 768px) {.ti-widget.ti-thum {padding: 0 2rem!important}}
 /*Map + FAQs*/
 .mc-contactfaq-section {
     background: var(--mc-bg-soft);
@@ -757,17 +759,17 @@ button.mc-faq-toggle:hover, .mc-faq-item.active button.mc-faq-toggle {
     text-align: left;
 }
 @media screen and (max-width: 768px) {
-    .mc-contact-box {
-        flex: 0;
-        padding: 0;
-    }
-    .mc-contactfaq-container {
-        flex-direction: column;
-    }
+    .mc-contact-box,
     .mc-faq-box {
         flex: 0;
         display: block;
         width: 100%;
         padding: 0;
+    }
+    .mc-contact-box iframe {
+        width: 100%;
+    }
+    .mc-contactfaq-container {
+        flex-direction: column;
     }
 }
