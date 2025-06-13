@@ -745,6 +745,7 @@ ul.slick-dots {
 .mc-faq-item.active .mc-faq-content {
     opacity: 1;
     margin-top: 1rem;
+    display: block;
 }
 button.mc-faq-toggle:focus {
     outline: none;
