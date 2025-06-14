@@ -759,9 +759,11 @@ button.mc-faq-toggle:focus {
     outline: none;
     background: none;
 }
-button.mc-faq-toggle:hover, .mc-faq-item.active button.mc-faq-toggle {
+button.mc-faq-toggle:hover, 
+.mc-faq-item.active button.mc-faq-toggle {
     background: #2bb6c1 !important;
     color: white !important;
+    border-radius: 15px 15px 0 0;
 }
 .mc-faq-item button.mc-faq-toggle {
     white-space: normal;
