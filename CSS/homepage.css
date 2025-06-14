@@ -260,7 +260,7 @@ div#roomToggle:hover i.mdi.mdi-cursor-default-click-outline.room-icon {
   font-size: 2rem !important;
   font-family: var(--mc-font-secondary) !important;
   color: var(--mc-text-base) !important;
-  margin: 2.5rem .5rem !important;
+  margin: 0rem .5rem 2rem !important;
 }
 .mc-service-card {
   background-color: var(--mc-bg-main);
@@ -277,10 +277,15 @@ div#roomToggle:hover i.mdi.mdi-cursor-default-click-outline.room-icon {
 }
 .mc-service-card:hover {
   transform: translateY(-5px);
+  box-shadow: 0px 0px 30px rgba(220, 94, 151, 0.4);
 }
 .mc-service-icon {
+  color: black;
   font-size: 4rem;
-  color: var(--mc-primary);
+  background: #f1f1f1;
+  border-radius: 50%;
+  padding: 5px 20px;
+  margin-bottom: 1rem;
 }
 .mc-service-card h3 {
   font-family: var(--mc-font-secondary) !important;
@@ -289,7 +294,7 @@ div#roomToggle:hover i.mdi.mdi-cursor-default-click-outline.room-icon {
   margin-bottom: 0.75rem !important;
 }
 .mc-service-card p {
-  font-size: 0.95rem !important;
+  font-size: 1.05rem !important;
   color: var(--mc-text-soft) !important;
   flex-grow: 1;
   margin-bottom: 1.5rem !important;
@@ -314,6 +319,9 @@ div#roomToggle:hover i.mdi.mdi-cursor-default-click-outline.room-icon {
     }
 }
 /* Slick overrides */
+.slick-list {
+    overflow: unset !important;
+}
 .slick-slide {
   display: flex !important;
   height: auto !important;
