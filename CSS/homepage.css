@@ -263,7 +263,6 @@ div#roomToggle:hover i.mdi.mdi-cursor-default-click-outline.room-icon {
 }
 /*Services Carousel*/
 .mc-services {
-  background-color: var(--mc-bg-soft);
   padding: 1rem 2rem 4rem;
   text-align: center;
   overflow: hidden;
