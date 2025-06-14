@@ -210,6 +210,15 @@ div#roomToggle:hover i.mdi.mdi-cursor-default-click-outline.room-icon {
   position: relative;
   margin-top: -75px;
 }
+section.mc-info-strip-2 {
+    background-color: #caedef;
+    width: 76%;
+    border-radius: 0 50px 50px 0;
+    position: relative;
+    margin-top: -145px;
+    z-index: 8;
+    height: 175px;
+}
 .mc-info-item {
   flex: 1;
 }
@@ -247,6 +256,7 @@ div#roomToggle:hover i.mdi.mdi-cursor-default-click-outline.room-icon {
   margin-top: 0.25rem;
 }
 @media screen and (max-width: 765px) {
+    section.mc-info-strip-2 {display: none;}
     .mc-info-icon.combo-icon i.mdi.mdi-plus-thick {
         font-size: 1.5rem;
     }
