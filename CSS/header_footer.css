@@ -43,9 +43,19 @@
   background-color: var(--mc-bg-main);
   border-bottom: 1px solid var(--mc-border);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.03);
-  position: sticky;
-  top: 0;
-  z-index: 999;
+  position: relative;
+  width: 100%;
+  transition: transform .3s ease;
+  z-index: 1000; 
+}
+.mc-header.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translateY(-100%);
+}
+.mc-header.fixed.show {
+    transform: translateY(0);
 }
 .mc-header__container {
   max-width: 1280px;
