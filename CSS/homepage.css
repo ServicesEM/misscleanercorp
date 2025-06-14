@@ -177,6 +177,10 @@ div#roomToggle:hover i.mdi.mdi-cursor-default-click-outline.room-icon {
     .mc-hero-text {
         padding-left: 0;
     }
+    .mc-hero-text div a.mc-btn.button--moema.button--text-thick.button--text-upper.button--size-s {
+        border-radius: 50px !important;
+        margin: 0 auto 2rem;
+    }
     .mc-hero-girl img {
         margin-bottom: 0;
     }
@@ -201,7 +205,6 @@ div#roomToggle:hover i.mdi.mdi-cursor-default-click-outline.room-icon {
   font-family: var(--mc-font-primary);
   text-align: center;
   z-index: 9;
-  /* gap: 5rem; */
   border-radius: 0 50px 50px 0;
   position: relative;
 }
@@ -250,8 +253,12 @@ div#roomToggle:hover i.mdi.mdi-cursor-default-click-outline.room-icon {
     .mc-info-icon i.mdi.mdi-account-star {
         font-size: 2.5rem;
     }
-    section.mc-info-strip.fullwidth {
+    section.mc-info-strip {
+        width: 100%;
         flex-direction: column;
+        gap: 2rem;
+        border-radius: 0;
+        margin-top: -20px;
     }
 }
 /*Services Carousel*/
@@ -326,6 +333,10 @@ div#roomToggle:hover i.mdi.mdi-cursor-default-click-outline.room-icon {
 /* Slick overrides */
 .slick-list {
     overflow: unset !important;
+}
+.slick-track {
+    display: flex;
+    align-items: stretch;
 }
 .slick-slide {
   display: flex !important;
