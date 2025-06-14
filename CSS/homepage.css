@@ -183,6 +183,7 @@ div#roomToggle:hover i.mdi.mdi-cursor-default-click-outline.room-icon {
     }
     .mc-hero-girl img {
         margin-bottom: 0;
+        margin-top: 2rem;
     }
     section.fullwidth.mc-hero-split.mc-hero-clean {
         padding: 0 1rem;
@@ -201,12 +202,13 @@ div#roomToggle:hover i.mdi.mdi-cursor-default-click-outline.room-icon {
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
-  width: 80%;
+  width: 75%;
   font-family: var(--mc-font-primary);
   text-align: center;
   z-index: 9;
   border-radius: 0 50px 50px 0;
   position: relative;
+  margin-top: -75px;
 }
 .mc-info-item {
   flex: 1;
