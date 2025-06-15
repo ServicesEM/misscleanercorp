@@ -303,7 +303,7 @@ section.mc-info-strip-2 {
   box-shadow: 0px 0px 30px rgba(220, 94, 151, 0.4);
 }
 .mc-service-icon {
-  color: black;
+  color: var(--mc-primary);
   font-size: 4rem;
   background: #f1f1f1;
   border-radius: 50%;
@@ -678,7 +678,7 @@ ul.slick-dots {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    align-items: flex-end;
+    align-items: center;
     z-index: 9;
 }
 .mc-contact-box h2 {
@@ -739,8 +739,8 @@ ul.slick-dots {
     align-items: stretch;
     z-index: 2;
 }
-.mc-contact-box * {
-    text-align: right;
+.mc-contact-box iframe {
+    width: 100%;
 }
 .mc-faq-item {
     margin-bottom: 1rem;
