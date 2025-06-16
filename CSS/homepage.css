@@ -119,10 +119,12 @@ div#roomToggle:hover i.mdi.mdi-cursor-default-click-outline.room-icon {
     z-index: 1;
     height: 100% !important;
     width: 100%;
+    border-radius: 350px 0 0 0;
 }
 .mc-hero-girl img {
     right: -75px;
     position: relative;
+    bottom: 20px;
 }
 .room-dirty {
     opacity: 1;
@@ -194,28 +196,42 @@ div#roomToggle:hover i.mdi.mdi-cursor-default-click-outline.room-icon {
 }
 /*Info Banner*/
 .mc-info-strip {
-    background-color: var(--mc-bg-soft);
-    padding: 2rem 4rem;
-    display: flex !important;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
-    font-family: var(--mc-font-primary);
-    text-align: center;
+  background-color: var(--mc-primary);
+  padding: 2rem 4rem;
+  display: flex !important;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 75%;
+  font-family: var(--mc-font-primary);
+  text-align: center;
+  z-index: 9;
+  border-radius: 0 50px 50px 0;
+  position: relative;
+  margin-top: -75px;
+}
+section.mc-info-strip-2 {
+    background-color: #caedef;
+    width: 76%;
+    border-radius: 0 50px 50px 0;
+    position: relative;
+    margin-top: -145px;
+    z-index: 8;
+    height: 175px;
 }
 .mc-info-item {
   flex: 1;
 }
 .mc-info-icon {
-    color: var(--mc-primary);
-    font-size: 1.8rem;
-    border-radius: 50%;
-    width: 48px;
-    height: 48px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto .75rem auto;
+  color: white;
+  font-size: 1.8rem;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 0.75rem auto;
 }
 .mc-info-icon.combo-icon i.mdi.mdi-plus-thick {
     font-size: 2rem;
@@ -226,14 +242,12 @@ div#roomToggle:hover i.mdi.mdi-cursor-default-click-outline.room-icon {
     font-size: 4rem;
 }
 .mc-info-item p {
-    font-size: 1.15rem !important;
-    margin: 0 !important;
-    font-weight: 500;
-    font-family: var(--mc-font-secondary);
+  font-size: 1.15rem !important;
+  color: white !important;
+  margin: 0 !important;
 }
 .mc-info-item h3 {
-    color: black;
-    font-size: 1.2rem;
+    color: #fff;
 }
 .mc-info-item strong {
   display: block;
@@ -291,6 +305,7 @@ div#roomToggle:hover i.mdi.mdi-cursor-default-click-outline.room-icon {
 .mc-service-icon {
   color: var(--mc-primary);
   font-size: 4rem;
+  background: #f1f1f1;
   border-radius: 50%;
   padding: 5px 20px;
   margin-bottom: 1rem;
