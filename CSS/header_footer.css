@@ -308,3 +308,14 @@ button.mc-header-mobile__toggle i.mdi.mdi-menu {
     justify-content: center;
     font-size: 1.5rem!important;
 }
+@media screen and (max-width: 1024px) {
+    .mc-footer-col.mc-footer-brand {margin: 0}
+    .mc-footer-container {grid-template-columns: repeat(auto-fit, minmax(250px, 1fr))}  
+}
+@media screen and (max-width: 768px) {
+    .mc-footer-col.mc-footer-brand {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
