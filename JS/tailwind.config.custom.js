@@ -35,6 +35,27 @@ tailwind.config = {
         "4xl": "2400px",
         "5xl": "3000px",
       },
+      transitionProperty: {
+        all: 'all',
+      },
+      translate: {
+        '0': '0',
+        full: '100%',
+        '-full': '-100%',
+      },
+      opacity: {
+        '0': '0',
+        '100': '1',
+      },
+      transitionDelay: {
+        '100': '100ms',
+        '200': '200ms',
+        '300': '300ms',
+        '400': '400ms',
+        '500': '500ms',
+        '600': '600ms',
+        '700': '700ms',
+      }
     },
   },
-};
+}
