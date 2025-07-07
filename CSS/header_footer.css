@@ -299,7 +299,6 @@ button.mc-header-mobile__toggle i.mdi.mdi-menu {
 }
 .mc-footer-socials a {
     color: white !important;
-    background: var(--mc-secondary);
     padding: 0.4rem;
     margin-left: 0.4rem;
     border-radius: var(--mc-radius-sm);
