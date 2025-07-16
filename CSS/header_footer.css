@@ -149,7 +149,7 @@ button.mc-header-mobile__toggle i.mdi.mdi-menu {
   }
   .mc-header-mobile__logo img {
     height: 50px;
-    width: 100%;
+    width: 50px;
   }
   .mc-header-mobile__toggle {
     background: none;
