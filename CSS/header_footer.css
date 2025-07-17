@@ -50,6 +50,7 @@
 }
 .mc-header.fixed {
     position: fixed;
+    will-change: transform;
     top: 0;
     left: 0;
     transform: translateY(-100%);
@@ -70,7 +71,7 @@
 .mc-header__logo img {
     height: 70px;
     display: block;
-    width: fit-content;
+    width: 70px;
 }
 .mc-header__nav-list {
     display: flex;
